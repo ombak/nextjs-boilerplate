@@ -1,5 +1,13 @@
-## Next.js App Router Course - Starter
+# NextJs & Docker Boilerplate
 
-This is the starter template for the Next.js App Router Course. It contains the starting code for the dashboard application.
+This is the boilerplate for create project nextJs use docker.
 
-For more information, see the [course curriculum](https://nextjs.org/learn) on the Next.js Website.
+## Installation
+
+```bash
+docker-compose up --build
+```
+
+## Sponsor
+
+![Static Badge](https://img.shields.io/badge/Whalez%20Digital%20Teknologi-blue?style=for-the-badge)
