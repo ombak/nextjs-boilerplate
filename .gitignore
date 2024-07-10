@@ -1,0 +1,12 @@
+node_modules/
+package-lock.json
+pnpm-lock.yaml
+
+.next/
+.pnpm-store/
+.DS_Store
+.env
+.vscode
+*.old
+*.sh
+*.swp

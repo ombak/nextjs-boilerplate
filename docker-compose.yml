@@ -1,0 +1,16 @@
+version: "3.9"
+
+services:
+  nextjs:
+    build: .
+    volumes:
+      - ./:/var/www/app
+      - /var/www/app/node_modules
+    ports:
+      - ${SERVER_PORT}:${SERVER_PORT}
+    env_file:
+      - .env
+    restart: always
+
+volumes:
+  pg-data: {}
